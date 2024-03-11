@@ -13,4 +13,9 @@ This submission placed 4th out of 20 teams and accurately predicts 143/149 of th
 ### Installations
 `pip install tensorflow`
 
+### Getting started
+The file routes to a directory called `images_train`. Once all files are downloaded, move `bathroom` and `kitchen` to a folder called "images_train"
+
+Due to the size limitations, I removed a majority of the images from the train and test sets. The model may not be as robust because of this. As a result, the accuracy from the original train/test sets may not be reproducible. 
+
 *Disclaimer:* I do not own the data. 
